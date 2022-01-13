@@ -2,7 +2,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/gaura/IdeaProjects/TestAutomation_web">
-        <classes><class name="test.automation.AppTest"><methods><include name="shouldAnswerWithTrue"/></methods>
-        </class></classes>
+        <classes>
+        <class name="test.automation.AppTest">
+            <methods><include name="shouldAnswerWithTrue"/></methods>
+        </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="invoke Chrome browser">
+        <classes><class name="test.automation.invokeChromeTest">
+        <methods><include name="invokeChrome"/>
+        </methods>
+    </class>
+        </classes>
     </test>
 </suite>
