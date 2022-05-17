@@ -1,1 +1,3 @@
+test\automation\invokeToolsSQA.class
 test\automation\AppTest.class
+test\automation\invokeChromeTest.class

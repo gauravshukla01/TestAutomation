@@ -4,8 +4,8 @@
 
 
     <test verbose="2" preserve-order="true" name="invoke ToolsSQA website">
-        <classes><class name="test.automation.invokeToolsSQA">
-        <methods><include name="invokeToolsSQA"/>
+        <classes><class name="test.automation.fillForm_demo">
+        <methods><include name="fillForm"/>
         </methods>
     </class>
         </classes>
